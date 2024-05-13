@@ -27,20 +27,20 @@ function createPdf($pendaftaran_id)
     $mpdf = new \Mpdf\Mpdf([
         // 'format' => [100, 120,10], // Ukuran kertas khusus
         'format' => [100, 120], // Ukuran kertas khusus
-        'margin_left' => 10,
+        'margin_left' => 2,
         'margin_right' => 10,
-        'margin_top' => 10,
+        'margin_top' => 2,
         'margin_bottom' => 10
     ]);
 
 
 
     // Tambahkan JavaScript untuk Auto Print
-    $javascript = '
-this.print(true); // true untuk dialog cetak default
-';
+//     $javascript = '
+// this.print(true); // true untuk dialog cetak default
+// ';
 
-    $mpdf->SetJS($javascript); // Menambahkan JavaScript untuk cetak otomatis
+//     $mpdf->SetJS($javascript); // Menambahkan JavaScript untuk cetak otomatis
 
 
     // $mpdf = new \Mpdf\Mpdf([

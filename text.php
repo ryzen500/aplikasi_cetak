@@ -327,9 +327,9 @@ $base_url = get_base_url();
                                         'width=800,height=600,menubar=no,toolbar=no,scrollbars=yes' // Mengatur ukuran dan opsi lainnya
                                     );
 
-                                    setTimeout(function() {
-                                        openTab.close();
-                                    }, 3000); // Tutup setelah 3 detik
+                                    // setTimeout(function() {
+                                    //     openTab.close();
+                                    // }, 3000); // Tutup setelah 3 detik
 
                                     $("#input_no_kartu").val("");
                                     const inputElement = document.getElementById('input_no_kartu');

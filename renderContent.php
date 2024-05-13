@@ -143,7 +143,7 @@ $umur = explode(" ", $modPendaftaran['umur']);
 
     <table style="width: 100%; border: none; margin-bottom: 0px;">
         <tr>
-            <td>Printed by: <?= $print['nama_pegawai']; ?></td>
+            <td>Printed Date: <?= $print['nama_pegawai']; ?></td>
         </tr>
         <tr>
             <td><?= date('d-m-Y H:i:s'); ?></td>
