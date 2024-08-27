@@ -4,6 +4,7 @@ require_once __DIR__ . '/vendor/autoload.php'; // Library tambahan jika dibutuhk
 // $dsn = 'pgsql:host=192.168.214.222;port=5121;dbname=db_rswb_simulasi_20221227';
 // $user = 'developer';
 // $password = 's6SpprwyLVqh7kFg';
+date_default_timezone_set('Asia/Jakarta');
 
 // Koneksi ke database dan query running
 $dsn = 'pgsql:host=192.168.214.225;port=5121;dbname=db_rswb_running_new';
@@ -143,7 +144,7 @@ $umur = explode(" ", $modPendaftaran['umur']);
 
     <table style="width: 100%; border: none; margin-bottom: 0px;">
         <tr>
-            <td>Printed Date: <?= $print['nama_pegawai']; ?></td>
+            <td>Printed Date:</td>
         </tr>
         <tr>
             <td><?= date('d-m-Y H:i:s'); ?></td>
