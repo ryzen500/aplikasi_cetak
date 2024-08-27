@@ -4,7 +4,7 @@ require_once __DIR__ . '/vendor/autoload.php'; // Library tambahan jika dibutuhk
 // $dsn = 'pgsql:host=192.168.214.222;port=5121;dbname=db_rswb_simulasi_20221227';
 // $user = 'developer';
 // $password = 's6SpprwyLVqh7kFg';
-date_default_timezone_set('Asia/Jakarta');
+// date_default_timezone_set('Asia/Jakarta');
 
 // Koneksi ke database dan query running
 $dsn = 'pgsql:host=192.168.214.225;port=5121;dbname=db_rswb_running_new';
